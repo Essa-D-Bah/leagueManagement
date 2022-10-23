@@ -1,0 +1,45 @@
+.sidebar{
+    border-right: solid 1px rgb(200, 197, 197);
+    flex: 1;
+    min-height: 100vh;
+}
+
+.top{
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(215, 210, 210);
+    color: rgb(47, 47, 191);
+    font-weight: 700;
+}
+
+.center ul li{
+    list-style: none;
+    padding: .5em 0;
+    width: 100%;
+    color:rgb(47, 47, 191);
+    margin: .6em 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.center ul li:hover{
+    background-color: rgb(247, 246, 246);
+    cursor: pointer;
+}
+
+.bottom ul{
+    list-style: none;
+    color:rgb(47, 47, 191);
+    display: flex;
+    gap: 20px;
+    margin: 2em 0;
+}
+
+.bottom ul li:hover{
+   cursor: pointer;
+} 
+
